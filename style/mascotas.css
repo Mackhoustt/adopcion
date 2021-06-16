@@ -1,0 +1,74 @@
+@import url(./index.css);
+@import url(./chat.css);
+@import url(./root.css);
+/*Contenedor tarjeta animales*/
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    color: rgb(199, 199, 199);
+}
+.ctn-tarjeta-animal{
+    width:11%;
+    height:30vh;
+    margin:1% 1% 1% 1%;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 1px;
+    background-color: #2d7692;
+}
+.ctn-tarjeta-animal .ctn-img-animal{
+    width:100%;
+    height:inherit;
+    position:relative;
+ 
+}
+.ctn-tarjeta-animal .ctn-img-animal img{
+    width: 100%;
+    height: inherit;
+}
+.ctn-info-animal:hover{
+    transform: scale(1.1);
+    color: var(--color-verdePastel);
+}
+.ctn-tarjeta-animal .ctn-info-animal{
+    width: 80%;
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-left: 10px;
+    position:relative;
+    margin-top:-30%;
+}
+.ctn-tarjeta-animal .ctn-info-animal h1{
+    width: 100%;
+    font-size:var(--fuente-mediana);
+    color: var(--color-blanco);
+    text-align: start;
+    margin-bottom: 0px;
+}
+.ctn-tarjeta-animal .ctn-info-animal h2{
+    width: 100%;
+    font-size: var(--fuente-mediana);
+    opacity: 0.8;
+    text-align: start;
+    margin-top: -1px;
+}
+
+    
+@media screen and (min-width:768px) and (max-width:1023px){
+    .ctn-tarjeta-animal{
+        width:30%;
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:767px){
+    .ctn-tarjeta-animal{
+        width:40%;
+        margin-bottom: 4rem;
+    }
+}

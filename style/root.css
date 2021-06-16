@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
+
+    *{
+        text-decoration: none;
+    }
+.ctn-img-chat{
+    width: 20px;
+    height: 20px;
+}
+
+.ctn-categoria-animales{
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.ctn-categoria-animales h1{
+    color: var(--color-blanco);
+}
+.ctn-categoria-animales .ctn-categoria-perro,
+.ctn-categoria-animales .ctn-categoria-gato{
+
+    background-color: var(--color-negro);
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius:5px;
+}
+
+.ctn-categoria-animales .ctn-categoria-perro .ctn-categoria-perro-img,
+.ctn-categoria-animales .ctn-categoria-gato .ctn-categoria-gato-img{
+    background-color: var(--color-azulPastel);
+    width: 30%;
+    height: auto;
+    border-radius:50%;
+    align-items: center;
+}
+/*Main*/
+main{
+    width:100%;
+    height:auto;
+    margin:auto;
+    margin-bottom:5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--color-blanco);
+}

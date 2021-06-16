@@ -1,19 +1,20 @@
-@import url(/public/css/root.css);
+@import url(./chat.css);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
 *{
     margin: 0 auto;
     padding: 0 auto;
     color: rgb(199, 199, 199);
 }
 .cajaMayor{
-width: 15%;
-height: 30%;
+width: 10%;
+height: 20%;
 background: rgb(24, 180, 159);
 
 border: 1px solid rgb(24, 180, 159);
 border-radius: 10px;
 padding: 10%;
-margin-top: 16%;
-margin-bottom: 21%;
+margin-top: 1%;
+margin-bottom: 5%;
 box-shadow: 3px 3px 3px rgb(12, 136, 105);
 }
 .cajaSegunda h2{
@@ -68,8 +69,9 @@ body{
 color: rgb(199, 199, 199);
 }
 footer{
+   
     margin: auto;
-    padding: auto;
+    padding: 30px;
     background-color: darkmagenta;
     display: flexbox;
 }
