@@ -1,0 +1,80 @@
+@import url(/public/css/root.css);
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    color: rgb(199, 199, 199);
+}
+.cajaMayor{
+width: 15%;
+height: 30%;
+background: rgb(24, 180, 159);
+
+border: 1px solid rgb(24, 180, 159);
+border-radius: 10px;
+padding: 10%;
+margin-top: 16%;
+margin-bottom: 21%;
+box-shadow: 3px 3px 3px rgb(12, 136, 105);
+}
+.cajaSegunda h2{
+    padding: 10px;
+   
+    text-align: center;
+    font-size: 32px;
+}
+
+.cajaSegunda img{
+    margin-left: 30%;
+    align-items: center;
+ }
+ .cajaSegunda h4{
+  
+ 
+    text-align: center;
+    font-size: 16px;
+ }
+.cajaSegunda {
+ 
+    font-size: 16px;
+    width: 100%;
+ }
+ .huecos{
+    width: 100%;
+
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(82, 12, 139);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+ }
+ .subir{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(102, 7, 180);
+    border-radius: 8px;
+    padding: 12px;
+    color: white;
+    font-size: 10px;
+    margin: 1px;
+margin-left: 25%;
+ }
+.subir:hover{
+    background-color: rgb(46, 4, 80);
+}
+body{
+    background: linear-gradient(90deg, rgb(185, 6, 185),purple );
+color: rgb(199, 199, 199);
+}
+footer{
+    margin: auto;
+    padding: auto;
+    background-color: darkmagenta;
+    display: flexbox;
+}
+footer nav{
+display: flex;
+align-items: flex-end;
+align-content: space-between;
+}
